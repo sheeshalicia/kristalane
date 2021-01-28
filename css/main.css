@@ -470,12 +470,19 @@ header .hero{
   align-items: flex-start;
 }
 
-.calendly{
-  width: 70%;
+.cta{
+  width: 100%;
+  justify-content: center;
 }
 
-.quote-text{
-  width: 70%;
+.calendly{
+  width: 100%;
+  justify-content: center;
+}
+
+.calendly p{
+  font-size: 1.75em;
+  width: 60%;
 }
 
 .about .content-wrapper{
@@ -601,21 +608,6 @@ header .hero {
 
 .about .bio{
   margin: 0 0 20px 0;
-}
-
-.cta{
-  width: 100%;
-  justify-content: center;
-}
-
-.calendly{
-  width: 100%;
-  justify-content: center;
-}
-
-.calendly p{
-  font-size: 1.75em;
-  width: 60%;
 }
 
 .quote-text{
