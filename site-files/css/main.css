@@ -115,11 +115,19 @@ h2{
   font-size: 2em;
   color: #8a1715;
   text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+h3{
+  font-size: 1.375em;
+  color: #4d6265;
 }
 
 p{
   font-size: 1.125em;
   line-height: 1.285;
+  margin: 0;
 }
 
 img{
@@ -155,47 +163,19 @@ footer .content-wrapper{
   margin: 20px 0;
 }
 
-footer .contact{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-}
 
 footer .social-icons{
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
-  width: 90%;
+  align-items: center;
+  width: 80%;
 }
 
 footer .social-icons i{
   color: #e6f2ee;
   font-size: 3em;
   line-height: 2em;
-}
-
-footer .calendly i{
-  color: #e6f2ee;
-  font-size: 4em;
-  padding-top: 50px;
-}
-
-footer .calendly{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 90%;
-}
-
-footer .calendly p{
-  width: 40%;
-  color: #e6f2ee;
-}
-
-footer .calendly img{
-  width: 100px;
 }
 
 footer h2{
@@ -250,6 +230,58 @@ padding-top: 20px;
 .services-icon-desc{
   text-align: center;
   padding-top: 20px;
+}
+
+/* ==CTA Section== */
+
+.cta{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: #4d6265;
+  padding: 20px 0 20px 0;
+}
+
+.calendly i{
+  color: #e6f2ee;
+  font-size: 4em;
+}
+
+.calendly{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 2px #e6f2ee solid;
+}
+
+.calendly p{
+  width: 50%;
+  color: #e6f2ee;
+  padding-left: 40px;
+}
+
+.quote-text{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 20px;
+  color: #e6f2ee;
+}
+
+.quote-text h3{
+  text-align: left;
+  font-weight: normal;
+  padding: 0; margin: 0;
+  color: #e6f2ee;
+}
+
+.quote-text p{
+  text-align: right;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 /* ==About Section== */
