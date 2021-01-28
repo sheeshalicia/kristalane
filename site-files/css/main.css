@@ -116,7 +116,7 @@ h2{
   color: #8a1715;
   text-align: center;
   margin: 0;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 h3{
@@ -127,7 +127,7 @@ h3{
 p{
   font-size: 1.125em;
   line-height: 1.285;
-  margin: 0;
+  padding: 0; margin: 0;
 }
 
 img{
@@ -239,7 +239,7 @@ padding-top: 20px;
   flex-flow: row wrap;
   align-items: center;
   background-color: #4d6265;
-  padding: 20px 0 20px 0;
+  padding: 40px 0 20px 0;
 }
 
 .calendly i{
@@ -252,7 +252,7 @@ padding-top: 20px;
   justify-content: center;
   flex-flow: row wrap;
   align-items: center;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   border-bottom: 2px #e6f2ee solid;
 }
 
@@ -267,7 +267,7 @@ padding-top: 20px;
   flex-flow: row wrap;
   justify-content: flex-end;
   align-items: flex-end;
-  padding-top: 20px;
+  padding-top: 30px;
   color: #e6f2ee;
 }
 
@@ -315,9 +315,6 @@ padding-top: 20px;
 }
 
 /* ==Writing Section== */
-.writing h2{
-  margin-bottom: 0;
-  }
 
 .writing{
   background-color:  #e6f2ee;
@@ -326,7 +323,12 @@ padding-top: 20px;
   flex-flow: row wrap;
 }
 
+.writing h2{
+  margin-bottom: 0; padding-bottom: 10px;
+}
+
 .medium-widget{
+  margin: 0;
   padding: 0 10px 40px 10px;
   display: flex;
   flex-flow: row wrap;
@@ -436,6 +438,10 @@ header .hero{
   min-height: 700px;
 }
 
+.services{
+  padding-bottom: 20px;
+}
+
 .services article{
     width: 33%;
     justify-content: center;
@@ -462,6 +468,14 @@ header .hero{
 .services .content-wrapper{
   margin: 0;
   align-items: flex-start;
+}
+
+.calendly{
+  width: 70%;
+}
+
+.quote-text{
+  width: 70%;
 }
 
 .about .content-wrapper{
@@ -515,11 +529,11 @@ html{
 }
 
 h2{
-  font-size: 3em;
+  font-size: 2.875em;
 }
 
 p{
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.25;
 }
 
@@ -560,7 +574,7 @@ header .hero {
 
 .services-icon-desc{
   width: 100%;
-  padding: 0 20px;
+  padding: 20px 20px;
 }
 
 .services .content-wrapper{
@@ -568,20 +582,62 @@ header .hero {
 }
 
 .about .content-wrapper{
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 0;
 }
 
-.about
+.about .bio{
+  width: 49%;
+}
+
+.about .about-image{
+  width: 40%;
+}
+
+.about p{
+  padding-left: 30px;
+  margin-top: 0;
+}
+
+.about .bio{
+  margin: 0 0 20px 0;
+}
+
+.cta{
+  width: 100%;
+  justify-content: center;
+}
+
+.calendly{
+  width: 100%;
+  justify-content: center;
+}
+
+.calendly p{
+  font-size: 1.75em;
+  width: 60%;
+}
+
+.quote-text{
+  width: 100%;
+  justify-content: center;
+}
+
+.quote-text p {
+  width: 80%;
+}
+
+.about{
+  padding-bottom: 20px;
+}
 
 .writing .content-wrapper, .contact .content-wrapper{
   margin-top: 0;
 }
 
-
-footer .social-icons i, footer .calendly i{
+footer .social-icons i{
   padding: 0 50px;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 }
