@@ -422,7 +422,7 @@ padding-top: 20px;
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px){
 /* ====== Tablet Styles ======= */
 
 .greeting{
@@ -457,7 +457,7 @@ header .hero{
 .services-icon{
   width: 40%;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .services-icon-desc{
@@ -476,13 +476,17 @@ header .hero{
 }
 
 .calendly{
-  width: 100%;
+  width: 90%;
   justify-content: center;
 }
 
 .calendly p{
   font-size: 1.75em;
   width: 60%;
+}
+
+.quote-text{
+  width: 90%
 }
 
 .about .content-wrapper{
@@ -528,7 +532,7 @@ footer i{
 
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
 /* ====== Desktop Styles ======= */
 
 html{
@@ -545,7 +549,7 @@ p{
 }
 
 .content-wrapper{
-  max-width: 960px;
+  max-width: 900px;
 }
 
 header .hero {
@@ -563,10 +567,6 @@ header .hero {
 }
 
 .services article{
-    width: 33%;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
     margin-bottom: 20px;
 }
 
