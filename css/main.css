@@ -141,6 +141,7 @@ img{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  border: 1px red solid;
 }
 
 /* ==Base Header & Footer Styles== */
@@ -209,6 +210,7 @@ header .hero {
   justify-content: center;
   flex-flow: row wrap;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .services article{
@@ -230,6 +232,23 @@ padding-top: 20px;
 .services-icon-desc{
   text-align: center;
   padding-top: 20px;
+}
+
+.services-button {
+  background-color: #8a1715;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.services-button i {
+  padding: 10px;
 }
 
 /* ==CTA Section== */
